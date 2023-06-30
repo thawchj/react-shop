@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Prompt';
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.text-size-36 {
+    font-size: 36px;
+}
+
+.text-size-32 {
+    font-size: 32px;
+}
+
+.text-size-24 {
+    font-size: 24px;
+}
+
+.text-size-20 {
+    font-size: 20px;
+}
+
+.text-size-18 {
+    font-size: 18px;
+}
+
+.text-size-16 {
+    font-size: 16px;
+}
+
+.text-size-14 {
+    font-size: 16px;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+.text-medium{
+    font-weight: 500;
+} 
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.carousel .carousel-item img {
+    height: auto;
+}
+
+.banner-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    pointer-events: none;
+}
+
+.banner-caption .container {
+    height: 100%;
+}
+
+.banner-caption-inner {
+    position: relative;
+    height: 100%;
+}
+
+.banner-caption-in-inner {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    text-align: left;
+    transform: translateY(-50%);
+}
+
+.cover-whychoose {
+    margin-top: 100px;
+}
+.cover-whychoose .row.justify-con-spacebw{
+    justify-content: space-between !important;
+}
+
+.cover-whychoose .img-whychoose img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.cover-whychoose .all-content{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.cover-whychoose .content{
+    margin-bottom: 30px;
+}
+.cover-whychoose .content .icon{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
+.cover-whychoose .content .icon:before {
+    content: "";
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    background: rgba(59, 93, 80, 0.2);
+    border-radius: 50%;
+    right: -8px;
+    bottom: 0;
+}
+.cover-products {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cover-filter {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.btn-filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #eeeeee;
+    padding: 25px 0;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-filter svg {
+    fill: rgb(0, 0, 0);
+}
+
+.btn-filter.active svg {
+    fill: rgb(246, 214, 0);
+}
+
+.btn-filter.active svg path {
+    fill: rgb(246, 214, 0);
+}
+
+.btn-filter label {
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+.cover-filter .card-filter .btn-filter {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.cover-filter .card-filter .btn-filter.active {
+    color: rgb(246, 214, 0);
+}
+
+.cover-card {
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+.cover-card .cover-img {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cover-card .cover-img img {
+    max-width: 380px;
+    width: 100%;
+    height: 380px;
+    object-fit: contain;
+}
+
+.cover-card .info-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cover-card .info-card .cover-right .cover-addtocart {
+    padding: 10px;
+    border: 2px solid rgb(242, 242, 242);
+    background-color: rgb(242, 242, 242);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cover-cart .header-cart {
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cover-cart table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cover-cart table th {
+    padding: 15px 10px;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.cover-cart table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.cover-cart table td img {
+    max-width: 100px;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.cover-cart table tr:nth-child(odd) {
+    background-color: rgba(250, 251, 252, 1);
+    border-bottom: 1px solid #EDEDED;
+}
+
+.cover-cart table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid #EDEDED;
+}
+
+.cover-footer {
+    width: 100%;
+    height: 400px;
+    background-color: #eeeeee;
+}
+
+
+/* Cart Page */
+
+.table-cart table {
+    width: 100%;
+
+}
+
+.table-cart th {
+    padding: 20px 10px;
+    border-bottom: 1px solid #e7eaec;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.table-cart td {
+    border: 1px solid transparent;
+    padding: 15px;
+}
+
+.bottom-cart {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+/* End Cart Page */
+
+/* Nav */
+.cover-naviconcart {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cover-naviconcart .in-naviconcart {
+    display: block;
+    position: relative;
+}
+
+.cover-naviconcart .in-naviconcart svg {
+    display: block;
+}
+
+.cover-naviconcart .in-naviconcart label {
+    position: absolute;
+    right: 15px;
+    top: -9px;
+    padding: 3px 7px;
+    height: 21px;
+    min-width: 21px;
+    border-radius: 50%;
+    background-color: rgb(246, 214, 0);
+    text-align: center;
+    font-size: 12px;
+}
+
+/* End Nav */
+
+/* Thankyou */
+.cover-thankyou {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cover-thankyou .font-thankyou {
+    font-size: 200px;
+    font-weight: 600;
+}
+
+.cover-thankyou .info-thankyou {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+/* End Thankyou */
+
+/* Cart empty */
+.cover-empty {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.cover-empty label {
+    font-size: 22px;
+    padding: 40px 0;
+}
+
+
+/* End Cart empty */
